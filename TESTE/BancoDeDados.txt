@@ -1,0 +1,592 @@
+
+Setting environment for using XAMPP for Windows.
+Treinamento@RD723918 c:\xampp
+# cd ..
+
+Treinamento@RD723918 c:\
+# cd Teste
+O sistema não pode encontrar o caminho especificado.
+
+Treinamento@RD723918 c:\
+# cd C:\Users\Treinamento\Desktop\TESTE
+
+Treinamento@RD723918 C:\Users\Treinamento\Desktop\TESTE
+# mysql -u root -p
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 8
+Server version: 10.4.11-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> create database Teste
+    -> ;
+Query OK, 1 row affected (0.004 sec)
+
+MariaDB [(none)]> use database Teste;
+ERROR 1049 (42000): Unknown database 'database'
+MariaDB [(none)]> use Teste;
+Database changed
+MariaDB [Teste]> source ambiente.sql;
+Query OK, 0 rows affected (0.088 sec)
+
+Query OK, 0 rows affected (0.010 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.012 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.009 sec)
+
+Query OK, 0 rows affected (0.009 sec)
+
+Query OK, 0 rows affected (0.009 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.011 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.008 sec)
+
+Query OK, 0 rows affected (0.009 sec)
+
+Query OK, 0 rows affected (0.035 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.041 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.039 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.035 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.029 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.029 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.027 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.027 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.034 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.028 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.029 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.030 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.032 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.032 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.027 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.028 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.026 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.027 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.029 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 0 rows affected (0.029 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+Query OK, 1 row affected (0.013 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected (0.004 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected (0.004 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected (0.002 sec)
+
+Query OK, 1 row affected (0.003 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected (0.002 sec)
+
+Query OK, 1 row affected (0.002 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected (0.002 sec)
+
+Query OK, 1 row affected (0.002 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected (0.002 sec)
+
+Query OK, 1 row affected (0.003 sec)
+
+Query OK, 1 row affected (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.005 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.002 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.002 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.002 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.002 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 1 row affected, 1 warning (0.001 sec)
+
+Query OK, 12 rows affected (0.004 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+Query OK, 12 rows affected (0.001 sec)
+Records: 12  Duplicates: 0  Warnings: 0
+
+MariaDB [Teste]> select*from Teste;
+ERROR 1146 (42S02): Table 'teste.teste' doesn't exist
+MariaDB [Teste]> show tables;
++-----------------------+
+| Tables_in_teste       |
++-----------------------+
+| tb_cliente            |
+| tb_estoque            |
+| tb_filial             |
+| tb_fornecedor         |
+| tb_movimentacoes      |
+| tb_nf                 |
+| tb_nf_item            |
+| tb_pedido             |
+| tb_pedido_item        |
+| tb_produto            |
+| tb_status_nota        |
+| tb_tipo_filial        |
+| tb_tipo_movimentacoes |
+| tb_tipo_operacao      |
+| tb_tipo_pagamento     |
+| tb_tipo_pedido        |
+| tb_tipo_produto       |
++-----------------------+
+17 rows in set (0.056 sec)
+
+MariaDB [Teste]> select * from tb_pedido;
+Empty set (0.052 sec)
+
+MariaDB [Teste]> select * from tb_tipo_pedido;
++----------------+----------------+
+| ID_TIPO_PEDIDO | DS_TIPO_PEDIDO |
++----------------+----------------+
+|              1 | COMPRA         |
+|              2 | VENDA          |
++----------------+----------------+
+2 rows in set (0.053 sec)
+
+MariaDB [Teste]> select * from tb_nf;
+Empty set (0.001 sec)
+
+MariaDB [Teste]> insert into tb_nf(Compra) values ("Compra);
+    ">
+    "> Bye
+
+Treinamento@RD723918 C:\Users\Treinamento\Desktop\TESTE
+# mysql root -u -p
+
+Treinamento@RD723918 C:\Users\Treinamento\Desktop\TESTE
+# mysql -u root -p
+Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 9
+Server version: 10.4.11-MariaDB mariadb.org binary distribution
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+MariaDB [(none)]> use database Teste;
+ERROR 1049 (42000): Unknown database 'database'
+MariaDB [(none)]> use Teste;
+Database changed
+MariaDB [Teste]> show tables;
++-----------------------+
+| Tables_in_teste       |
++-----------------------+
+| tb_cliente            |
+| tb_estoque            |
+| tb_filial             |
+| tb_fornecedor         |
+| tb_movimentacoes      |
+| tb_nf                 |
+| tb_nf_item            |
+| tb_pedido             |
+| tb_pedido_item        |
+| tb_produto            |
+| tb_status_nota        |
+| tb_tipo_filial        |
+| tb_tipo_movimentacoes |
+| tb_tipo_operacao      |
+| tb_tipo_pagamento     |
+| tb_tipo_pedido        |
+| tb_tipo_produto       |
++-----------------------+
+17 rows in set (0.001 sec)
+
+MariaDB [Teste]> select * from tb_nf;
+Empty set (0.001 sec)
+
+MariaDB [Teste]> desc tb_nf;
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| Field             | Type         | Null | Key | Default                           | Extra          |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_NF             | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| ID_TIPO_OPERACAO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_STATUS_NOTA    | int(4)       | NO   | MUL | NULL                              |                |
+| DT_EMISSAO        | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_NOTA           | bigint(20)   | NO   |     | NULL                              |                |
+| ID_CLIENTE        | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR     | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL         | bigint(6)    | NO   | MUL | NULL                              |                |
+| ID_TIPO_PAGAMENTO | int(4)       | NO   | MUL | NULL                              |                |
+| VL_TOTAL_NOTA     | double(12,2) | NO   |     | NULL                              |                |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+10 rows in set (0.062 sec)
+
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_STATUS_NOTA` FOREIGN KEY (`ID_STATUS_NOTA`) REFERENCES `tb_status_nota` (`ID_STATUS_NOTA`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_STATUS_NOTA` FOREIGN KEY (`ID_STATUS_NOTA`) REFERENCES `tb_status_nota` (`ID_STATUS_NOTA`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> INSERT INTO tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_STATUS_NOTA` FOREIGN KEY (`ID_STATUS_NOTA`) REFERENCES `tb_status_nota` (`ID_STATUS_NOTA`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> desc tb_tipo_pedido;
++----------------+-------------+------+-----+---------+----------------+
+| Field          | Type        | Null | Key | Default | Extra          |
++----------------+-------------+------+-----+---------+----------------+
+| ID_TIPO_PEDIDO | int(4)      | NO   | PRI | NULL    | auto_increment |
+| DS_TIPO_PEDIDO | varchar(50) | NO   |     | NULL    |                |
++----------------+-------------+------+-----+---------+----------------+
+2 rows in set (0.057 sec)
+
+MariaDB [Teste]> desc tb_nf;
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| Field             | Type         | Null | Key | Default                           | Extra          |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_NF             | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| ID_TIPO_OPERACAO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_STATUS_NOTA    | int(4)       | NO   | MUL | NULL                              |                |
+| DT_EMISSAO        | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_NOTA           | bigint(20)   | NO   |     | NULL                              |                |
+| ID_CLIENTE        | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR     | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL         | bigint(6)    | NO   | MUL | NULL                              |                |
+| ID_TIPO_PAGAMENTO | int(4)       | NO   | MUL | NULL                              |                |
+| VL_TOTAL_NOTA     | double(12,2) | NO   |     | NULL                              |                |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+10 rows in set (0.057 sec)
+
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_STATUS_NOTA` FOREIGN KEY (`ID_STATUS_NOTA`) REFERENCES `tb_status_nota` (`ID_STATUS_NOTA`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,2,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,2,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,1,5,2,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,5,2,"22/05/2020",22,89,125,898,4,"250.00");
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (12,5,2,"22/05/2020",22,89,125,898,4,"250.00");
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_NF,ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,12,5,2,"22/05/2020",22,89,125,898,4,"250.00");
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_NF,ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,12,5,2,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (1,12,5,2,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (12,5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_TIPO_OPERACAO` FOREIGN KEY (`ID_TIPO_OPERACAO`) REFERENCES `tb_tipo_operacao` (`ID_TIPO_OPERACAO`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> insert into tb_nf (ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_TIPO_OPERACAO` FOREIGN KEY (`ID_TIPO_OPERACAO`) REFERENCES `tb_tipo_operacao` (`ID_TIPO_OPERACAO`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> insert into tb_nf (ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_TIPO_OPERACAO` FOREIGN KEY (`ID_TIPO_OPERACAO`) REFERENCES `tb_tipo_operacao` (`ID_TIPO_OPERACAO`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> insert into tb_nf (ID_TIPO_OPERACAO, ID_STATUS_NOTA, DT_EMISSAO, NR_NOTA, ID_CLIENTE, ID_FORNECEDOR, ID_FILIAL, ID_TIPO_PAGAMENTO, VL_TOTAL_NOTA) VALUES (12,5,"22/05/2020",22,89,125,898,4,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_TIPO_OPERACAO` FOREIGN KEY (`ID_TIPO_OPERACAO`) REFERENCES `tb_tipo_operacao` (`ID_TIPO_OPERACAO`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> desc tb_nf;
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| Field             | Type         | Null | Key | Default                           | Extra          |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_NF             | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| ID_TIPO_OPERACAO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_STATUS_NOTA    | int(4)       | NO   | MUL | NULL                              |                |
+| DT_EMISSAO        | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_NOTA           | bigint(20)   | NO   |     | NULL                              |                |
+| ID_CLIENTE        | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR     | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL         | bigint(6)    | NO   | MUL | NULL                              |                |
+| ID_TIPO_PAGAMENTO | int(4)       | NO   | MUL | NULL                              |                |
+| VL_TOTAL_NOTA     | double(12,2) | NO   |     | NULL                              |                |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+10 rows in set (0.057 sec)
+
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES(2,3,"10/02/2018",56,78,12,78,78,8.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_CLIENTE_NF` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `tb_cliente` (`ID_CLIENTE`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES (2,3,"10/02/2018",56,78,12,78,78,8.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_CLIENTE_NF` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `tb_cliente` (`ID_CLIENTE`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> DESC tb_cliente;
++-------------+--------------+------+-----+-----------------------------------+----------------+
+| Field       | Type         | Null | Key | Default                           | Extra          |
++-------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_CLIENTE  | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| NM_CLIENTE  | varchar(100) | NO   |     | NULL                              |                |
+| DS_CPF      | varchar(11)  | NO   |     | NULL                              |                |
+| DT_CADASTRO | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
++-------------+--------------+------+-----+-----------------------------------+----------------+
+4 rows in set (0.056 sec)
+
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES (2,3,"10/02/2018",56,78,12,78,78,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_CLIENTE_NF` FOREIGN KEY (`ID_CLIENTE`) REFERENCES `tb_cliente` (`ID_CLIENTE`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> desc cliente;
+ERROR 1146 (42S02): Table 'teste.cliente' doesn't exist
+MariaDB [Teste]> desc tb_cliente;
++-------------+--------------+------+-----+-----------------------------------+----------------+
+| Field       | Type         | Null | Key | Default                           | Extra          |
++-------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_CLIENTE  | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| NM_CLIENTE  | varchar(100) | NO   |     | NULL                              |                |
+| DS_CPF      | varchar(11)  | NO   |     | NULL                              |                |
+| DT_CADASTRO | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
++-------------+--------------+------+-----+-----------------------------------+----------------+
+4 rows in set (0.057 sec)
+
+MariaDB [Teste]> desc _pedido;
+ERROR 1146 (42S02): Table 'teste._pedido' doesn't exist
+MariaDB [Teste]> desc tb_pedido;
++-----------------+--------------+------+-----+-----------------------------------+----------------+
+| Field           | Type         | Null | Key | Default                           | Extra          |
++-----------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_PEDIDO       | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| DT_PEDIDO       | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_PEDIDO       | bigint(12)   | NO   |     | NULL                              |                |
+| ID_TIPO_PEDIDO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_CLIENTE      | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR   | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL       | bigint(6)    | NO   | MUL | NULL                              |                |
+| VL_TOTAL_PEDIDO | double(12,2) | NO   |     | NULL                              |                |
++-----------------+--------------+------+-----+-----------------------------------+----------------+
+8 rows in set (0.058 sec)
+
+MariaDB [Teste]> desc tb_cliente;
++-------------+--------------+------+-----+-----------------------------------+----------------+
+| Field       | Type         | Null | Key | Default                           | Extra          |
++-------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_CLIENTE  | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| NM_CLIENTE  | varchar(100) | NO   |     | NULL                              |                |
+| DS_CPF      | varchar(11)  | NO   |     | NULL                              |                |
+| DT_CADASTRO | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
++-------------+--------------+------+-----+-----------------------------------+----------------+
+4 rows in set (0.057 sec)
+
+MariaDB [Teste]> select * from tb_cliente;
++------------+----------------+-------------+-------------+
+| ID_CLIENTE | NM_CLIENTE     | DS_CPF      | DT_CADASTRO |
++------------+----------------+-------------+-------------+
+|          1 | HUGUINHO       | 81926701378 | 0000-00-00  |
+|          2 | ZEZINHO        | 02856256251 | 0000-00-00  |
+|          3 | LUIZINHO       | 99987267265 | 0000-00-00  |
+|          4 | CAPITAO BOEING | 93691740111 | 0000-00-00  |
+|          5 | PATO DONALD    | 56423198766 | 0000-00-00  |
+|          6 | GASTAO         | 32183892644 | 0000-00-00  |
++------------+----------------+-------------+-------------+
+6 rows in set (0.000 sec)
+
+MariaDB [Teste]> desc tb_nf;
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| Field             | Type         | Null | Key | Default                           | Extra          |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_NF             | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| ID_TIPO_OPERACAO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_STATUS_NOTA    | int(4)       | NO   | MUL | NULL                              |                |
+| DT_EMISSAO        | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_NOTA           | bigint(20)   | NO   |     | NULL                              |                |
+| ID_CLIENTE        | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR     | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL         | bigint(6)    | NO   | MUL | NULL                              |                |
+| ID_TIPO_PAGAMENTO | int(4)       | NO   | MUL | NULL                              |                |
+| VL_TOTAL_NOTA     | double(12,2) | NO   |     | NULL                              |                |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+10 rows in set (0.057 sec)
+
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES (2,3,"10/02/2018",56,2,12,78,78,250.00);
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`teste`.`tb_nf`, CONSTRAINT `FK_ID_FORNECEDOR_NF` FOREIGN KEY (`ID_FORNECEDOR`) REFERENCES `tb_fornecedor` (`ID_FORNECEDOR`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES (2,3,"10/02/2018",56,2,2,2,2,250.00);
+Query OK, 1 row affected, 1 warning (0.055 sec)
+
+MariaDB [Teste]> desc tb_pedido;
++-----------------+--------------+------+-----+-----------------------------------+----------------+
+| Field           | Type         | Null | Key | Default                           | Extra          |
++-----------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_PEDIDO       | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| DT_PEDIDO       | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_PEDIDO       | bigint(12)   | NO   |     | NULL                              |                |
+| ID_TIPO_PEDIDO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_CLIENTE      | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR   | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL       | bigint(6)    | NO   | MUL | NULL                              |                |
+| VL_TOTAL_PEDIDO | double(12,2) | NO   |     | NULL                              |                |
++-----------------+--------------+------+-----+-----------------------------------+----------------+
+8 rows in set (0.056 sec)
+
+MariaDB [Teste]> select * from tb_pedido;
+Empty set (0.000 sec)
+
+MariaDB [Teste]> INSERT INTO tb_pedido(DT_PEDIDO,NR_PEDIDO,ID_TIPO_PEDIDO,ID_CLIENTE_ID_FORNECEDOR_ID_FILIAL_VL_TOTAL_PEDIDO) VALUES ("10/01/2018", 22, 2, 1, 2,2,22.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> INSERT INTO tb_pedido(DT_PEDIDO,NR_PEDIDO,ID_TIPO_PEDIDO,ID_CLIENTE_ID_FORNECEDOR,ID_FILIAL_VL_TOTAL_PEDIDO) VALUES ("10/01/2018", 22, 2, 1, 2,2,22.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> INSERT INTO tb_pedido(DT_PEDIDO,NR_PEDIDO,ID_TIPO_PEDIDO,ID_CLIENTE_ID_FORNECEDOR,ID_FILIAL,VL_TOTAL_PEDIDO) VALUES ("10/01/2018", 22, 2, 1, 2,2,22.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> INSERT INTO tb_pedido(DT_PEDIDO,NR_PEDIDO,ID_TIPO_PEDIDO,ID_CLIENTE_ID_FORNECEDOR,ID_FILIAL,VL_TOTAL_PEDIDO) VALUES ("10/01/2018", 2, 2, 1, 2,2,22.00);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+MariaDB [Teste]> desc tb_nf;
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| Field             | Type         | Null | Key | Default                           | Extra          |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+| ID_NF             | bigint(12)   | NO   | PRI | NULL                              | auto_increment |
+| ID_TIPO_OPERACAO  | int(4)       | NO   | MUL | NULL                              |                |
+| ID_STATUS_NOTA    | int(4)       | NO   | MUL | NULL                              |                |
+| DT_EMISSAO        | date         | NO   |     | date_format(curdate(),'%d/%m/%Y') |                |
+| NR_NOTA           | bigint(20)   | NO   |     | NULL                              |                |
+| ID_CLIENTE        | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FORNECEDOR     | bigint(12)   | YES  | MUL | NULL                              |                |
+| ID_FILIAL         | bigint(6)    | NO   | MUL | NULL                              |                |
+| ID_TIPO_PAGAMENTO | int(4)       | NO   | MUL | NULL                              |                |
+| VL_TOTAL_NOTA     | double(12,2) | NO   |     | NULL                              |                |
++-------------------+--------------+------+-----+-----------------------------------+----------------+
+10 rows in set (0.057 sec)
+
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES (1,3,"10/02/2018",56,2,2,2,2,50.00);;
+Query OK, 1 row affected, 1 warning (0.053 sec)
+
+ERROR: No query specified
+
+MariaDB [Teste]> INSERT INTO tb_nf(ID_TIPO_OPERACAO,ID_STATUS_NOTA,DT_EMISSAO,NR_NOTA,ID_CLIENTE,ID_FORNECEDOR,ID_FILIAL,ID_TIPO_PAGAMENTO,VL_TOTAL_NOTA) VALUES (1,3,"10/02/2018",56,2,2,2,2,50.00);
+Query OK, 1 row affected, 1 warning (0.053 sec)
+
+MariaDB [Teste]> Bye
+
+Treinamento@RD723918 C:\Users\Treinamento\Desktop\TESTE
+#
